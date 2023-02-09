@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Docente Universitario</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="/static/index.css">
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div class="row">
+            <h1>Docente Universitario</h1>
+            <div class="col">
+                <form id="form">
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">nombre</label>
+                        <input type="text" class="form-control" name="nombre" id="exampleInputEmail1"
+                            placeholder="Ingrese el nombre " aria-describedby="emailHelp">
+
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword2" class="form-label">apellido</label>
+                        <input type="text" class="form-control" name="apellido" placeholder="Ingrese su apellido"
+                            id="exampleInputPassword2">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword3" class="form-label">catedra</label>
+                        <input type="text" class="form-control" name="catedra" placeholder="ingrese la catedra  "
+                            id="exampleInputPassword3">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword4" class="form-label">facultad</label>
+                        <input type="text" class="form-control" name="facultad"
+                            placeholder="Ingrese el nombre de su facultad" id="exampleInputPassword4">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword5" class="form-label">paralelo</label>
+                        <input type="text" class="form-control" name="paralelo" placeholder="Ingrese el paralelo"
+                            id="exampleInputPassword5">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword5" class="form-label">jornada</label>
+                        <input type="text" class="form-control" name="jornada" placeholder="Ingrese la jornada"
+                            id="exampleInputPassword5">
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">guardar</button>
+                </form>
+            </div>
+            <div class="col  ">
+
+                <ul id="docenteList">
+
+                </ul>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+    <script src="static/index.js"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
